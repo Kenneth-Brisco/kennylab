@@ -1,0 +1,32 @@
+.typeStyle {
+  text-align: center;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  opacity: 0.5;
+  font-size: 2em;
+  -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon3 1.5s ease-in-out infinite alternate;
+  animation: neon3 1.5s ease-in-out infinite alternate;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome and Opera */
+}
+
+@-webkit-keyframes neon3 {
+  from {
+    text-shadow: 0 0 10px #228dff, 0 0 20px #228dff, 0 0 30px #228dff,
+      0 0 40px #228dff, 0 0 70px #228dff, 0 0 80px #228dff, 0 0 100px #228dff,
+      0 0 150px #228dff;
+  }
+  to {
+    text-shadow: 0 0 5px #228dff, 0 0 10px #228dff, 0 0 15px #fff,
+      0 0 20px #228dff, 0 0 35px #228dff, 0 0 40px #228dff, 0 0 50px #228dff,
+      0 0 75px #228dff;
+  }
+}
