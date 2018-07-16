@@ -122,6 +122,7 @@ class App extends Component {
         <Quote />
         <Contact />
         <Particles className="particles" params={particlesOptions} />
+
         <Footer />
       </div>
     );
