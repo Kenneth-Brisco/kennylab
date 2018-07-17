@@ -20,6 +20,12 @@ h1 {
                                 supported by Chrome and Opera */
 }
 
+@media only screen and (max-width: 850px) {
+  .title h1 {
+    font-size: 5px;
+  }
+}
+
 @-webkit-keyframes neon2 {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228dff,

@@ -2,3 +2,12 @@
   display: flex;
   justify-content: center;
 }
+
+@media only screen and (max-width: 850px) {
+  .contact {
+    display: inline-grid;
+    width: 102%;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
